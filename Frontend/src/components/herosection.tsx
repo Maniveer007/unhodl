@@ -59,12 +59,12 @@ const HeroSection = () => {
       {/* Left content */}
       <div className="flex flex-col justify-center px-8 md:px-16 lg:px-24 w-full lg:w-1/2 z-10">
         <div className="max-w-xl">
-          <p className="text-white font-medium mb-4">DIRECT DEPOSIT</p>
+          <p className="text-white font-medium mb-4">unHODL</p>
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
             Spend, Save and Borrow with Your Bitcoin.
           </h1>
           <p className="text-white text-xl mb-8">
-            With direct deposit<sup>2</sup>
+            With unHODL
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <Link href="/get-started">

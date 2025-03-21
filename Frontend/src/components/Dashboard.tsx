@@ -130,7 +130,6 @@ const Dashboard = () => {
     console.log("Processing repayment");
     console.log(userData?.loanTaken);
     
-
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
 
@@ -165,7 +164,7 @@ const Dashboard = () => {
 
 
     Vault?.repayLoan(ethers.utils.parseUnits(`${userData?.loanAmount}`, 18));
-    // Add your repayment logic here using the contract methods
+    // Add your repayment logic here using the contract methods 
   };
 
   const handleWithdraw = async (amount: number) => {
